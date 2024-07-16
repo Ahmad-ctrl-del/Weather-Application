@@ -1,0 +1,126 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.Container {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top: 50px;
+  background-image: url('D:/projects/Weather-App/src/assets/Background image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 245vh 100vh;
+}
+
+.Weather {
+  max-width: 350px;
+  padding: 30px;
+  margin: 50px auto;
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgb(75, 4, 78), rgb(248, 3, 138));
+  text-align: center;
+  color: black;
+  margin: 0 auto;
+  flex: 1;
+}
+
+.Search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Search input {
+  padding: 12px 25px;
+  border-radius: 30px;
+  border: none;
+  outline: 0px;
+  background-color: white;
+  color: black;
+  margin-right: 12px;
+  flex: 1;
+  text-align: center;
+}
+
+.Search button {
+  border: none;
+  outline: 0px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.Search button img {
+  width: 20px;
+}
+
+.Info img {
+  margin-top: 50px;
+  width: 150px;
+}
+
+.Info h1 {
+  margin: 0;
+  font-weight: 500;
+  font-style: bold;
+  font-size: 70px;
+  margin-top: 10px;
+  max-width: 320px;
+  /* Set a maximum width for h1 */
+}
+
+.Info h3 {
+  margin: 0;
+  font-weight: 400;
+  font-style: light;
+  font-size: 50px;
+  margin-top: 10px;
+  max-width: 320px;
+  /* Set a maximum width for h3 */
+}
+
+.Details {
+  width: 350px;
+  display: flex;
+  align-items: center;
+}
+
+.Details .col {
+  margin-top: 20px;
+  display: flex;
+  /* Make the columns into flex containers */
+  align-items: center;
+  /* Align the content of each column in the center */
+  margin-right: 1rem;
+  /* Reduce the margin-right to a smaller value */
+}
+
+.Details .col img {
+  size: 30px;
+  width: 50px;
+  margin-right: 35px;
+  /* Add margin-right to the images to create space between them and the text */
+}
+
+.Humidity,
+.Speed {
+  padding-left: 0px;
+  width: 108px;
+  margin-left: -20px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.Humidity p,
+.Speed p {
+  font-weight: lighter;
+  color: rgb(146, 146, 146);
+  margin: 0px;
+}
